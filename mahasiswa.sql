@@ -33,18 +33,17 @@ CREATE TABLE `mahasiswa` (
   `jkel` varchar(1) DEFAULT NULL,
   `alamat` text DEFAULT NULL,
   `tgl_lahir` date DEFAULT NULL,
-  `prodi` varchar(60) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `mahasiswa`
 --
 
-INSERT INTO `mahasiswa` (`nim`, `nama`, `jkel`, `alamat`, `tgl_lahir`, `prodi`) VALUES
-('mhs01', 'Siti Aminah', 'P', 'Solo', '1995-10-01', NULL),
-('mhs02', 'Rita', 'P', 'Solo', '1999-01-01', NULL),
-('mhs03', 'Amirudin', 'L', 'Semarang', '1998-08-11', NULL),
-('mhs04', 'Siti Maryam', 'P', 'Jakarta', '1995-04-15', NULL);
+INSERT INTO `mahasiswa` (`nim`, `nama`, `jkel`, `alamat`, `tgl_lahir`) VALUES
+('mhs01', 'Siti Aminah', 'P', 'Solo', '1995-10-01'),
+('mhs02', 'Rita', 'P', 'Solo', '1999-01-01'),
+('mhs03', 'Amirudin', 'L', 'Semarang', '1998-08-11'),
+('mhs04', 'Siti Maryam', 'P', 'Jakarta', '1995-04-15');
 
 --
 -- Indexes for dumped tables
