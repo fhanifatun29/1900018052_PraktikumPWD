@@ -66,7 +66,7 @@ include_once("koneksi.php");
     }
     ?>
 
-    <table border=1>
+    <table border=7>
         <tr>
             <th>Nama</th>
             <th>Email</th>
